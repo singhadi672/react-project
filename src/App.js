@@ -1,5 +1,5 @@
 import React from "react";
-import TweetList from "./components/TweetList";
+import CreateTweet from "./components/CreateTweet";
 
 function App() {
   const details = {
@@ -8,14 +8,10 @@ function App() {
     name3: "Dev ed",
   };
 
-  const aa = 11;
-  const bb = 21;
   return (
     <div>
       <h1>Hello React</h1>
-      <TweetList details={details} />
-      <TweetList details={details} />
-      <TweetList details={details} />
+      <CreateTweet details={details} />
     </div>
   );
 }
